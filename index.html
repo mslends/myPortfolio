@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html ng-app='myPortfolio'>
+  <head>
+    <meta charset="utf-8">
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" type="text/css "href="style.css" media="screen" title="no title" charset="utf-8">
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.0.8/gridlex.css">
+
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+
+
+  </head>
+  <body>
+
+
+
+    <main>
+
+      <section class="main-container">
+      <!--  <header class="nav-wrapper">
+           <div class="hamburger">
+            <img class ="burger" src="images/small-hamburger.png">
+          </div>
+          <nav class="nav"></nav>
+        </header> -->
+
+
+        <!-- <info-directive></info-directive> -->
+        <!-- <section class="info">
+
+          <div class="green-box">
+            <div class="profile-pic">
+              <img id="profile-pic" src="images/profile-pic.jpg" alt="" />
+            </div>
+          </div>
+
+          <h1 id="name">Michael Spencer</h1>
+          <h3 id="title">Developer | Entrepreneur</h3>
+
+          <div class="menu-box">
+            <a ui-sref="home"><h3 id="menu">Home</h3></a>
+            <a ui-sref="portfolio"><h3 id="menu">Portfolio</h3></a>
+            <h3 id="menu">contact</h3>
+          </div> -->
+
+          <!-- <div class="paragraphs">
+            <p class="p">Welcome to my page and, to my coding journey.
+            </p>
+
+            <h3 id="cell">cell: 509.793.4103</h3>
+            <h3 id="email">email: mike@mikespencer.io</h3>
+          </div> -->
+
+
+
+
+        <section ui-view>
+
+          <!-- <h1>These are the languages that I'm currently focusing on.</h1>
+          <p>Html5</p>
+          <p>CSS</p>
+          <p>JavaScript</p>
+          <p>Angular</p>
+          <p>React</p>
+          <p>MongoDB</p> -->
+
+        </section>
+
+          <footer-directive></footer-directive>
+      </section>
+
+
+      </section>
+
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.js'>
+      </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">
+</script>
+    <script src='js/app.js'></script>
+    <script src='controllers/mainCtrl.js'></script>
+    <script src='js/footerDirective.js'></script>
+    <script src='js/infoDirective.js'></script>
+
+
+
+  </body>
+</html>
