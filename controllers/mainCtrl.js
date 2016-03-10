@@ -6,9 +6,9 @@ $scope.profilePicture = 'images/profile-pic.jpg';
 
 $(document).ready(function(){
     $(".fa").hover(function(){
-        $(this).removeClass('fa-2x').addClass('fa-3x')
+        $(this).removeClass('fa-3x').addClass('fa-4x')
       }, function(){
-        $(this).removeClass('fa-3x').addClass('fa-2x');
+        $(this).removeClass('fa-4x').addClass('fa-3x');
 
 
       });
